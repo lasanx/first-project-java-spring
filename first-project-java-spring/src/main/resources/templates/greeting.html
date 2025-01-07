@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Greeting</title>
 </head>
 <body>
-<p th:text="'Hello, ' + ${name} + '!''" />
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum dignissim malesuada.
-</p>
-<img th:src="@{/images/vistula.png}" width="600" height="600" alt="Image description"/>
+<h1>Hello, <span th:text="${name}">World</span>!</h1>
+<h2>Obraz</h2>
+<img th:src="${imageUrl}" alt="obrazek" />
 </body>
 </html>

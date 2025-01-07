@@ -43,6 +43,6 @@ Jeśli użytkownik nie poda imienia, aplikacja użyje domyślnej wartości `"Wor
 ### Obrazek
 Na stronie powitania użytkownik zobaczy również obrazek (np. Logo uczelni), który jest załadowany z zewnętrznego źródła.
 
-![images.png](..%2FUsers%2FUser%2FPictures%2Fimages.png)
+!https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzQjL8iWMsDjU_yYlke6aSkmi-WB1QUUso8Q&s)
 
 
